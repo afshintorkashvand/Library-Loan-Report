@@ -58,3 +58,4 @@ function buildLoanRows(data) {
 
     return loans.map(callBackMap);
 }
+console.log(buildLoanRows(libraryData));
